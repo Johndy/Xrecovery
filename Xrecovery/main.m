@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  main.m
 //  Xrecovery
 //
 //  Created by Sam Rothenberg on 11/6/14.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
-@end
-
+int main(int argc, const char * argv[]) {
+    return NSApplicationMain(argc, argv);
+}
